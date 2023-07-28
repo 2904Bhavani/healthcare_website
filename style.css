@@ -1,0 +1,105 @@
+.top-section{
+    background-image: url("https://media.istockphoto.com/id/1416417320/photo/healthy-food-healthy-eating-background-salmon-fruit-vegetable-and-berry-superfood.jpg?b=1&s=170667a&w=0&k=20&c=HONfLrKhOcBq0JKWC5JVepfa8gYdt0bRnWv-Y6uIAl8=");
+    height: 40vh;
+    background-size: cover;
+    padding: 20px;
+}
+.top-heading{
+    font-size: 60px;
+    color:rgb(180, 124, 50);
+    padding: 10px;
+    
+}
+.health-logo{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(175, 137, 66);
+    padding: 10px;
+}
+
+
+.bottom-section{
+    background-color: rgb(245, 206, 232);
+    height: 60vh;
+    padding: 30px;
+    text-align: center;
+}
+.bottom-heading{
+    font-size: 50px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    color:rgb(175, 137, 66)
+}
+.bottom-description{
+    font-size: 40px;
+    font-family: "coveat";
+    text-align: center;
+}
+.button{
+
+    background-color: rgb(247, 154, 185);
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+.top-color{
+    background-color: rgb(243, 207, 229);
+    height: 100vh;
+}
+
+.top-heading-disease{
+    font-family: "coveat";
+    padding: 50px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    color: rgb(161, 119, 156);
+    
+}
+
+
+
+.card-image-disease{
+    background-color: rgb(241, 118, 205);
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card-heading-disease{
+    color: #1a1d20;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Define the keyframes for the color animation */
+@keyframes colorAnimation {
+    0% { background-color: rgb(251, 181, 252); }
+    25% { background-color: rgb(238, 246, 168); }
+    50% { background-color: rgb(210, 180, 251); }
+    75% { background-color: rgb(216, 185, 116); }
+    100% { background-color: rgb(177, 230, 251); }
+  }
+  
+  /* Apply the animation to an element */
+  div {
+    animation-name: colorAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  

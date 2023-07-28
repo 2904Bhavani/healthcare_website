@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="sectionHomePage">
+        
+
+            <div class="top-section d-flex flex-row">
+
+                <img src="https://st2.depositphotos.com/1378583/10695/v/950/depositphotos_106957826-stock-illustration-healthcare-logo-design.jpg"
+                  class="health-logo"/>
+                  <h1 class="top-heading">HealthCare</h1>
+                  
+                </div>
+                
+                <div class="bottom-section">
+                    <h1 class="bottom-heading">Welcome to HealthCare</h1>
+                
+                    <p class="bottom-description">"Take care of your body. It's your only place to live."</p> <br>
+                
+                   
+
+                    <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+                        View More
+                     </button>
+                </div>
+                    
+        
+        
+
+
+      </div>
+
+
+
+      <div id="sectionDiseaseView">
+        
+        <div class="top-color">
+            <div class="top-heading-disease">
+             <h1>Most Common Diseases</h1>
+             </div>
+             <div class="bottom-section-disease">
+                 <div class="d-flex flex-row justify-content-center">
+         
+                     <div class="card-container-disease" onclick="display('sectionDetailedview1')">
+                         
+                           <img src="https://static.vecteezy.com/system/resources/previews/016/223/362/original/human-heart-logo-medical-cardiology-icon-illustration-vector.jpg" 
+                              class="card-image-disease"/>
+         
+                              <h1 class="card-heading-disease">Cardiovascular</h1>
+                     </div>
+                  
+                     <div class="card-container-disease" onclick="display('sectionDetailedview2')">
+                         
+                         <img src="https://thumbs.dreamstime.com/b/women-breast-cancer-logo-vector-template-ready-use-women-breast-cancer-logo-diagnosis-stethoscope-125813663.jpg" 
+                            class="card-image-disease"/>
+         
+                            <h1 class="card-heading-disease">Cancer</h1>
+                   </div>
+                
+         
+                   <div class="card-container-disease"  onclick="display('sectionDetailedview3')">
+                         
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHdzXkeD4iFGj9DdDcguQMzAYPQt_N-OnoA&usqp=CAU" 
+                        class="card-image-disease"/>
+         
+                        <h1 class="card-heading-disease">Diarrhea.</h1>
+               </div>
+         
+               <div class="card-container-disease"  onclick="display('sectionDetailedview4')">
+                         
+                 <img src="https://st2.depositphotos.com/1770943/7226/v/950/depositphotos_72266235-stock-illustration-blue-overweight-icon.jpg" 
+                    class="card-image-disease"/>
+         
+                    <h1 class="card-heading-disease">Obesity</h1>
+           </div>
+         
+           <div class="card-container-disease"  onclick="display('sectionDetailedview5')">
+                         
+             <img src="https://www.shutterstock.com/shutterstock/photos/1623010504/display_1500/stock-vector-world-diabetes-day-icon-logo-blue-circle-with-red-blood-drop-in-center-stop-the-diabetes-1623010504.jpg" 
+                class="card-image-disease"/>
+         
+                <h1 class="card-heading-disease">Diabetes</h1>
+         </div>
+         
+                 </div>
+         
+         
+         
+         
+                 <div class="bottom-section-disease">
+                     <div class="d-flex flex-row justify-content-center">
+             
+                         <div class="card-container-disease"  onclick="display('sectionDetailedview6')">
+                             
+                               <img src="https://images-platform.99static.com/ZpMhvVjj5c1PhS4RxUxSuP-FKuk=/523x371:1562x1410/500x500/top/smart/99designs-contests-attachments/122/122922/attachment_122922707" 
+                                  class="card-image-disease"/>
+             
+                                  <h2 class="card-heading-disease">Infectious</h2>
+                         </div>
+                      
+                         <div class="card-container-disease"  onclick="display('sectionDetailedview7')">
+                             
+                             <img src="https://c8.alamy.com/comp/2JN8XTG/typhoid-fever-icon-monochrome-simple-deseases-icon-for-templates-web-design-and-infographics-2JN8XTG.jpg" 
+                                class="card-image-disease"/>
+             
+                                <h2 class="card-heading-disease">Typhoid</h2>
+                       </div>
+                    
+             
+                       <div class="card-container-disease"  onclick="display('sectionDetailedview8')">
+                             
+                         <img src="https://www.shutterstock.com/image-vector/mosquito-logo-design-vector-illustration-260nw-1493314412.jpg" 
+                            class="card-image-disease"/>
+             
+                            <h2 class="card-heading-disease">Malaria</h2>
+                   </div>
+             
+                   <div class="card-container-disease"  onclick="display('sectionDetailedview9')">
+                             
+                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAADoCAMAAABVRrFMAAABVlBMVEX///8BAQEAAAD//f7/9vf/+fn/8/P/7e//+Pn/8PH7+/v39/fq6uru7u7y8vL8/PxVVVXR0dH/4uRfX1/+6egXFxfBwcHh4eGYmJh5eXmioqIlJSU6OjpQUFAxMTFkZGSCgoK2trZHR0dtbW0dHR2tra3a2tqRkZGIiIgODg5JSUnLy8uenp7/2dp8fHxxcXH/zMstLS3/0dP/wMH+s7X+pqX/s7X/3dz+q6v/hYb/vL3+xcT/nZ//mJn/kpH/hIT+OTn/KinYzMuXi4vRxMXfxcnIsK+tmJqJfX3o29pgT1Dqioy2pqjJoqDtu7y/c3UmFhd9SEmsZmdrOju5YWB2ZmekiYhvVVWJR0e2kpFOPDwyJSSaTVDXnp8pCwzIY2bQuLqVa2vgnpzgbG5TExPlNDXFLi/ViIf+Hh59HR1RLy2aIiP9AwBhOz2PXV5eFxe3gYKsJCLLgMMrAAAX/0lEQVR4nO1d+5/axrUXwz5YntIKCQQCSQiBhFgw28Qb27Edv+3E8U2T2mmcpk3SpnncNG3+/1/uvPRCr1kjWLuX7yfZXe8KmK/OmfOaMyOO22OPPfbYY4899thjjz322GOPPfbYY48c1Cdyz9bNwUjXRXXGm/q0J08aVz2qzVATegsV+FguR8E/wFC3hOpVj/BNUJPtoUeihAEkyaE/lry/jKZu7apHeil0eoMwp4BOaf0XELxVv+rxMqLRG8ZZpQJfqlrvwLyTeXZWYXa8fNUjz0SzG1e5LHWM/MnpvbVTrq4niQukIeE6u3nVHJJQV1IsRF9czGVXqDeRSFq1xkSQLdtzAOvX22+d3Gr62jCJZdCNSSvtJXW5q62zg//q7nLY+ejFBghU2012xGUK/I+OZUbJwfkGbUl5l4PPgLCKjg35qJQZUw6h1WodQgplV3dC5NCr628HtWpkgqHAgoFWq3zoA/5FUEKSgz/10MU7ZZEA14nysjupl4aYVTGnCvq/Ar+WuQNLDXObNaDYrpabHuE17mUEub68qKwqByFUypxgBjEmAAZXvkqx1YfhCbIy0q8MJhcmFWJ1dHQE/8fkOosQN/0qNVIOK5CUwcsnRoRFiB2t4+CwXPe5wfnavDJq9tqkz0CIGZUX5nISgHCDcjN9ak7niqaaGCK2zIyLIpoYiOtkDYRcWVB9bvJVSK2pBlOiL2ReGrIcvhpCIscE7WMPlN1h2aIqCYC1e2p1KRCYnX2pp4gtooiYF+FEcXSEfyTsjiC5ckPzqM13Ta0TaKKTLTAuZDsqnrzCxE5P20f0ZyI3pJKc4VHr7nauTQJN1PKi84BYSGCEEgX8Bf7uk0OzrT7An4GlthNOGCFi2SaRixODAmuHeV1cXLSP2xfkH23EjsjtoNyl1Hq7o9YJiLl51/rGo4JV8YQKzCN1cXGGgH+6CMsN3oOyS6kZu6LW8IproJ9fdfLNfeWgcniAVZEQo5zOzjEoP8qNaORRGYY4mFrOTC4K1b5HbJRfCfXNB/TBlWf3H95/Bs0F5XVOWXnwuAVSqxzyhNpu6nYzz43yDBeHAo8FrR6oD06xEiIy1wKEuBGNxNTKCtJIsErNzAuE4gUIGsPFwSQ7dIPazsWZz+uWB0oOccNiI1I7qHBTTE3c/lTrXYaYxwxbD00xHj5rtx89eEwERmj9gYKww9w8aieE2hx+IrL9W4ZweWJl4qEPHurq2JGGL5888nhBQjc9EHKIm0etjYUGqfUwtS1bkRo1i2DATAzZRUws0MYzygsSeg/hOvqCyEWpEaF51KTtLtzwlNiQaUZ7vgx7smfAEZ8+ef7k6fDpGSaGaF2//gHB9es+N58a1kfo3g855LOBuU1iFg3mHLZarm/xkR87OrlvPHnw5PGjswtIDAoM8oKU3qfA5CC3NWpIaIeHnA5wSrM11L0odcJ2vWcYcVD1bOUp48eE2HVM60MKRA5xC1EjM41QExG17enjiBLLKgtEiHHYl5GoysB1t1UfZnOUGKb1ySe3MRA3KDef2oVPDc60w3JZhdSUbRHzdDEnHQuhAbWWzDIYVD14/ggFH+efvoBz7D0oMMjrfz4DwPnjJ3cgCDePmie0Y09oDXRjtmQfm5SYynh93R4DMJ5zFRoI33/wcX/cf/30qxdIYlBgt29/TvXzixuI2m1CDZoRLDTq1AizKoc8PetHXxIm1UW2GK62oKPWOSKy+4HVx6r44e07n/j1DvCnGzeQ2CC1daGdYGaHZWQgWefB5UBzMsY3Fxx/1PUDnJM9A+D1y6evXr2UvrxJiN35IlSr/PPduzcwNayP1xC1QGioilzmUCq6jfiRBMIwgGOBFSqwWock23z07ZNXr1599eLFLWQ8ILEbkfLyF3dvYGpQaDc9oXnemjBDU20LQZZMs0CmpfJueMwmh5k9kkq0jeI1EdmNP0UXpv58lygk1kcy07y4GFvHMqqNbMHyD4nILJZr59FFp4cVxOwx0DT169evAfj6OiZ24wt/lpFvf7l7Y40ZzsDhRIOpQqsFqYlbWDikImMyTsba6ucYK+Ppg+fPLmDA+Idv3iMiu/sZZfTXEtWHvyF9xJbfU0dkek6wzKotqo9FzzQVMAcfkygxpI+V4/Zx+1Q3vz0/v/XNd99/8D4i9nfC5x8/fPTRP0v4x1JEaJAZLrf6Ew1S6wE2rWEHrbUsGS6tjuNdA8ZRW3xwoQ7G0tfQZn73wY+I2V8IsY/uQfxA3v8Lwuy6x6x9fOwzI9T6YFwss0uUI8x4zwcAz6DNv/Cayz74DfwGmf0Vv+cP9+799NO9j36m+hiVmR8V+8zcggNjUoZjCqvkpG4WIFYG4Mlj8i7ffQ/AL7fvYvsB/g15Qdz7J5lzn9258yGOQ9KYQafGUn5hhk3uKEPuUpUSiMGXPn8IhqdosoKvb0Lz+PmdXwiV/73306+//voTVEdy3ee3c5gJxRay2EU2Te4/AuCUCA2Ab6DI/nj7F2rxIbOffvVlBjO/O+F5lsAMCm1aHDGsYUxOupHWWQVePgLgMXJmt74Er9//l1ey/OwjrI73fvZ82+dp86xMmQlAKo6ZhkXGkh3paS1jADx6CaRPoWH8CoDvfwtWcv6NbePvfj39szyZQQdUWDJTIyJj8GXNjGY4FQrt0SsAyf3nx3DwVfr599//EVo9/TFHZjAQWBTFjCjjjOHKXlYH4POzb8/OX9z69Jv3IlZmrbMM/Itkn35ITGOQgBmc9UUxwx6KKXsZZrRsgvHF2fk5KoF8l9XYCd0dUsZb4dwTxY0ouqLMpoWpI1FGhgtjcVV0zE8gtWu3br3IblkF/7l5M5JVk1i/FTCrF2UdcVmYSbe72UOenWKhZYoMXvY6yM9ChblWoI3cqF8MMzxeJgVQs5kBrI7Xvs5hBrxywVpOHTQrWQU5a5RMM/mQVGfmjfnxxfn5eY4ywsu+itVB1pg1iokdq1gZdYYr3TxmD5A6fpVDrAS+vObPsrYnsmqYGacWYvexWWBSxuxphuKQ9tnZ2atcZv1rEZFhZq0Is65TBDML+xuWK8U8Zmr74uzsZS4z8CIqsnVlRHe7iCbx6UrURkzVh36krpEkDLSM+3FS/hZ13Z+ena0VUteYcaUiPNpU1ZdLlhlLDQgYaE4yNRjwn17AmD/2+5EWycPBq+haTMSZEdhF1Az00VIU0ztoA7g0xeLNFOsPU2s43lG8mMBrswizj0/9BV1akltnZhTgq5uLkSIyLcp1KTNRSfNr4H77tB1jVgK8EmXmXIR18YDqYpiZUMAyYQcy43NbkBC8NShlGR88HfLD9ulxgsyUZZQZeOT1u4SVMcysVkDJwNVnCtM+o7pXyO/3EysG6E+Pj9txZvAVq2i9CzzxO0L8zGytF1DZ3DhOgSMxuXwrSLFS08/nJ+2TWZ5tRI7vOLR0dhiTGIS4uXG0kTdjMSBpKhgesXXUPorbxvh1/SNCLJ2Zvrlx1ABbBtPJCwcJs+OjPH9ewkb02F+ijk8yBGtz4whFwVTNn+cPGDI7ODlKqLTGmT08ImaxEnfSBPLmkeOKsRMjK50OmFVODp6yXNjF+xPSzAfEhG0dLwvQzrEE+tnptDdgo3J0kBc34wvNCibmBYxxZs3Nl6xR9wyDO0upoK4NWK4cHWZUgYILh+WwKiZ1f29edETMGIw+izLCXKhyUDFYmDkHWaqIsHkeg5jlNgszWUa0lnN4cOgyXdmpBKqY2Nq4+WITYpbvFa1U5+wDL3kcVipM7gFMylmqCLF5kQcxy3fUyaYcEXIGir0QR5icyR0eVvKqJeSVQjmbGDfcmBnMtRgqRaukRTMA1K5/UxqyZVRxf1mfhZnLtbJ4cdzmthGOIz81r8ZyTSSixaRjTLWZCjESF706h9KsQ5YwDE2ATIkVITOVhVmrFGmTQBgY3GQEInDRaA9TNHftvnS4bGLcamNmPAszTgkzcEaKUeMmkV2bQ9Tl0sBbN+fpyYDPTMqRWBEWRIHMGJYEhak4mw3ExdwQ4H1oGEo/GD/kCjQNSGhbEhysjMxkDrMFl0OsAKs/ZbGN8mCA91DXGh3ZWsykyMIR6Ov6SBRNWyOJcG205PMK4BMuxY352HyewWAod01QwExg5t0RfecVGufA5Jeiqag2TfHFXGYqV83Z+9XYvFwgM3jqFWk9AFK3WcMbvqPMwEhfiqK01Gl8bucwA8BoSDm3c8LSdJMNGMTnxY3+tguIZYfrTPsRbkDVRchM4XWaLQpmDrMxah3LXhaX2Vt+09DM7QSthuwBUkoYZbpaeJ7xiqaIps4vvPkqJ9RCwswspN7ZwbzFVE7LhpPXeWet6R5QDXK+i/ebPuTF85oYDKabZfeBg51otjoqBawz8XmKsZ7AoPs9rfs7aPyoWAoZhUUGNWCRJf9MqfCMWwayYOdsNEvKpgGSsxLoY4mEFSGkByJQDclOwcw9RUUsxsg5Kp+cTQNg1SNmxIk6xVZqhRyJjDJMR7OIxolOTvNu6vIEF7IT8R2haWka6NN3zOwcc0cFMIMZWpZDS23bAVZQFwBSPEBLrvRAF+NvcctI5aebG30O1VKzOlxTi1ZgUAsi4oRbE8988KUzbydYpgmZFbIlwco0jqkFG6jDXjk4eR9ektCgnQk2a2fIhaken4tO5n6U9PIhkGVvjIkOMalsAPTApGaYZLegzivoq9Pj02U6M6XlzZhk3UlY15WqtcANpofzdkEdt4usyDG9bwdaOeq1UixQrKaKPif4ZUaX97iA2ArBBRn177RVQDxnvIMHklNXIcZMCd8pkFos7bBuWsxDFYDU3DyrxgamHF7LBONkf7juMMCqGja1wElzo90CGxxTbVHWSgVY0W60lC3KrWh9Dn+IHc4b0mZ3n2kzNwvk9HBfTieG3BgWS+qL19bd5agKpDKbFLjBLt3uZy4IApFsF06bFeEElGSBg8hvUqJepZDeJAI9VR0Tmr3DRatODbqM1EU8LajaEfOrRYWYTKDG1NLMCOisU9aFE3zSODiRDdrUydBMdYaeU5CGOP6q8mvzLvmF80K3M83ScopYkR6ApeLnohnOFmFJg3pzuZLxGXUlFmZSgcqIN8slOutWQkFfXaggZ3AUNJACQ1NO6PtMsfoG41ZTVjjJUVzcncHwWRv58yd7xcT2ZDYNCmChd0pWk1XB5xf0km1IQv4IeJHuCQVgmB2S02gabdizE94oMboy0kOTNwOMQ5JqlylFEPJtlndzLT95NpPeJ3GS9gvfw9pNzN5TF50BWOWvbpOdAFC7tMTteEkVgV7x5yglCy0tBIGzjWHjM7I/aPN3ciaU1GDTBFs4ACVxpiUzA0Bim+XozE47aY7hd0lwoQvms0kuAyehApjEDK3jsp5xPVHk8EkA0feJJ2EC2yFbl4WRUKhJsCAAjC7Ve1hPI5aQr662dETIKO6eYsMCYHzJQNyKr7jRd4rlq9PtiAwLKKYgkWIBWqPuXXb3fdVaqlLSgmLsNqIVmi3MMgQ9bnJDCzHwc/vWmx0FUa1PLF2NsosdmFGF/AtLOdfQkmIxm98XDTZ/YENT6M58dvEcBq3Jbe1MQDdeLqYPGQFqr5BPbbrTmePna2Ggg+4L3Em9DiXm1DpjqIRaoQ9GqXZc2V2XGJpkBR/GEEGrn2Afd/FElDppAtoiJnkroNtBlbWdeQMUf/YIC1AHemnbD+8wd3YgawB8qtxWdRFD3dWBrD7s1SCrAF8YGtBI7fSpLnORN7d18FoU0ACrO3xyWW+gDcwdqQmM+hmOIi4IpiJqA3FXz6OCBrKQxf181LpjXTRHu3vQVheAwS7mWo3XV/ZgUdBCIBNgqrTafuzh9p2Vs2I6Zqs4QGrOlpIlH3MSbG8n24yiG7JQ3fzGx81QI08AAasdqH20ur/ltEKQKLFdPO2tDyJP4zBQW/62Jhst1YFhhFhTKKTFJYYqSmtnwUcJSRliIZgMaWI9iqiivb1Z14umSXV0evKy8HlQ1b2lAT5cL2riSslWDoGFmEggvBxfRW3sTsFiMxyPWGSbamsFVMGFn7Wd8KeOS/F8ICZkIoFYYFQnjPyiUdRB6zjuadpjMNtGEDkEZFdZkKIJuFhY1DMdJ6LPa+0MkBYuNnbJzpvixbZExJC2hO5nDT8DEXQL+DTEyyM2WLP2TXj7euguLvgtTDZcqba45iBqEw0SK3Q39DzuIOC1tv5n1XBRH8JsIOkVHUiitVsSxE2j5ZYmERvQ39zbNHsrv0AM879I4FZdogpuB14gTsgwCo7r0INiAN3RJq/NKxc9+BJ5buONlNJdhvtj1hdsmxL5VQcrRXVYeBEcH86QKhX8sFK8Nca95KKFsJAivOKWtuNp/0SUjTEYFmxAejl+smYDsu4MJ4PBOuWaxnLtMaXDtRpVFdGQSU2/g3V+VHBogBYBA9cpaAkBY907eR7V+XU5x+u06obiPyXeX81Zu3UGvEJsknywxXWgWXSKPtS8JkWO0xgl6yXa6CMqY6KWwBF1y63HVaeKdhYGz1OHr1gRYa8/NrMxAp6i8GSJqVF8RIx3A/pSMFIj01pvoKnByhPCeCSaij5FWCxNXnUigkKWUMOrS7H+kTrUTVngMZnaeFvP+UG3L/hkKesEm074Ibih/f0B1pZtNRO+uR635PRU5aqLbJJvRYqHrvs/dr2SbS85YmxagziDFADETE9yFnV0+1oGerC81MF6UmwvWdLAAV2RRD+kGKqGoSXIJ84KzsZliiWtIz2lUkadSvoWM3iKhRfe6NiDyikRQUuY86VEBfR/64jz+Iub8nyO9Y4nRt5CW363k0uvf7LX5d4hy5ASmKWvvKOjC/pJc62vdeXE9jsiJge6taqtDvCZDsaOFkn81WoSdJNHtilZoVy1M3GteXdqI0znljxJ8AUEKLrmcZ9ByGOrbM/u2hgTGoq4pAYOo2H8MHe+iCIT6j9CMYBFV6XrMAYWhjtb11LBGH1SH8fcTcyvOQc5TcNsmHnbOTRs4wVqP3a1YIeWw6cy3bRr0UqdjPVHBtrcvWRcJ8x178emX8IU8LvX8KTb+pP4ApAPJPuI0fEY/W4d+TjZy+aHisWUQTV6aF+0GriOjp/BtOhyT0cWdvFcyAAC5MYjHYGTbkCiOxxVDoAzJcZa5oRl15LdTshWtJqEQlXu9iiRKY52vfsAZUZtRWsHfjkbC7QgP4GObWy1cP8SGlnH0PtNrwsO9KmCGSg6dFAtqAbIPokmHr4byv5Vz3MJxZcELocqNRyNPp4NnfBKOUzodF1EBhznwLg0iQLkJkoVSG4+RIJuhjrF0Joj0r76eBsFqssAykXFjmeKd10jbzQ2e2Rq2CQGa42w0V7g0l1Nx2LSaHjG40c+qqG+oyGatRaKqbe9hpWDCSpgSNOJMMZmAI6b9CoinTTpFnO8X6jhCWbRm+D7gJVOwaTDG4oa9LFUSZntjkHPOiGt4eju190pST8GqEJoyFCsUgtJM5RWWjQj6WHRGJG+IEPhzWIa7zZHZwoltqx6FgEB3XG/FIAWR3uRcMkL0GTMt459V8dYOldrNBLRwOZciBTU+mAkQP+2wlXsXiRvbFD3LhCGKzg5fbm/lcB+WuuSIKTmUJOOPa7shRK9LrQvrTExqZQvptXXjZ2kKm+EjqWMiQuzsFxQ9KUTR1CjqQ/8jh5htkTNubJCFx+s4dS9eouRh6bbFbGO1UkMCMWDDbgFTNudyEOif80xjXXfXjElA9WpJ9RKuHQbWlcysUUnEUm1Z4pKd+f9hEWBxLK9Bam3NS1zOLCv2AHvsccee+yxxx577LHHHnvssccee+zx7iCpVeO/AhxLa9Q7iTAzwNYC9o7AZ4YEOImI8yqHxYZELfT+yPkXTaeAQ1/spWjPbMkev/XUgNpfSc5qDEazIZiNRvxwNRj6x+75zLq1TpfrNRpdzuUElxvmPGz6bQCYabymaIrKqyLQhqq6MEfKIMZswHcsbjaoW9ygYQrV1bvAbOWU+sCUnD4U1NApDSVnKEkxZrOWAEm1Jj2ObyjvArM0a+/93Wfmzi2Lc23ZekeYATi7tNmA54E40sSBOVOHs5E2M0cxmdlc3eC6HNRGsaZMhObbzqwEeoZt6IbR7857lj1dyMP5tGdP7XVma8IVlcQHf71NAJID/3Oc8bjkjB3J0UsO/h5jhqnRL/B+CPEzMN82MM6zhFftaoRbwv+PuPG/C/8HlvKDXyL44p4AAAAASUVORK5CYII=" 
+                        class="card-image-disease"/>
+             
+                        <h2 class="card-heading-disease">Tubercluosis</h2>
+               </div>
+             
+               <div class="card-container-disease"  onclick="display('sectionDetailedview10')">
+                             
+                 <img src="https://www.shutterstock.com/image-vector/polycystic-ovary-syndrome-line-color-260nw-1500787220.jpg" 
+                    class="card-image-disease"/>
+             
+                    <h2 class="card-heading-disease">PCOD</h2>
+             </div>
+             
+                     </div>
+                     <button class="btn btn-primary" onclick="display('sectionHomePage')">
+                        Back
+                      </button>
+         
+                   </div>
+                </div>
+            </div>
+
+
+      </div>
+      
+      
+      <div id="sectionDetailedview1">
+       
+          <table>
+            <tr>
+              <h3><u>Heart Disease Information</u></h3>
+            </tr>
+            <tr>
+              <td>
+                <h4>Heart Disease Symptoms:</h4>
+                <ul>
+                  <li>Chest pain or discomfort</li>
+                  <li>Shortness of breath</li>
+                  <li>Fatigue or weakness</li>
+                  <li>Rapid or irregular heartbeat</li>
+                  <li>Dizziness or lightheadedness</li>
+                  <li>Pain or discomfort in the jaw, neck, back, or arms</li>
+                  <li>Swelling in the ankles, feet, legs, or abdomen</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Precautions:</h4>
+                <ul>
+                  <li>Adopt a heart-healthy lifestyle with a balanced diet and regular exercise</li>
+                  <li>Avoid smoking and limit alcohol consumption</li>
+                  <li>Manage stress levels</li>
+                  <li>Control blood pressure, cholesterol, and blood sugar levels</li>
+                  <li>Follow the prescribed treatment plan and medication regimen</li>
+                  <li>Get regular check-ups and screenings</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Preventive Measures:</h4>
+                <ul>
+                  <li>Eat a diet rich in fruits, vegetables, whole grains, lean proteins, and low-fat dairy</li>
+                  <li>Avoid saturated and trans fats, excess salt, and added sugars</li>
+                  <li>Engage in regular physical activity, such as walking, swimming, or cycling</li>
+                  <li>Maintain a healthy weight</li>
+                  <li>Manage chronic conditions, such as high blood pressure, diabetes, and obesity</li>
+                  <li>Reduce stress through relaxation techniques, hobbies, and social support</li>
+                  <li>Limit alcohol consumption and avoid recreational drug use</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+         
+         <br>
+              <button class="btn btn-primary" onclick="display('sectionDiseaseView')">Back
+              </button>
+      
+     </div>
+
+
+     <div id="sectionDetailedview2">
+  <table>
+    <tr>
+      <th><u><h3>Cancer Information</h3></u></th>
+    </tr>
+    <tr>
+      <td>
+        <h4>Cancer Symptoms:</h4>
+        <ul>
+          <li>Persistent fatigue</li>
+          <li>Unexplained weight loss</li>
+          <li>Pain or discomfort that doesn't go away</li>
+          <li>Changes in the skin</li>
+          <li>Changes in bowel or bladder habits</li>
+          <li>Persistent cough or hoarseness</li>
+          <li>Difficulty swallowing</li>
+          <li>Unusual bleeding or discharge</li>
+          <li>Lumps or thickening of the skin or breast</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Regular screenings</li>
+          <li>Healthy lifestyle</li>
+          <li>Sun protection</li>
+          <li>Environmental factors</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Food Diet:</h4>
+        <ul>
+          <li>Balanced diet</li>
+          <li>Fruits and vegetables</li>
+          <li>Fiber-rich foods</li>
+          <li>Limit processed foods</li>
+          <li>Stay hydrated</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+
+    
+
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+        Back
+      </button>
+    </div>
+
+    
+    
+    <div id="sectionDetailedview3">
+      
+     
+        <table>
+          <tr>
+            <h3><u>Diarrhea Information</u></h3>
+          </tr>
+          <tr>
+            <td>
+              <h4>Diarrhea Symptoms:</h4>
+              <ul>
+                <li>Frequent loose or watery stools</li>
+                <li>Abdominal cramps</li>
+                <li>Bloating</li>
+                <li>Nausea or vomiting</li>
+                <li>Fever</li>
+                <li>Blood in the stool (in severe cases)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Precautions:</h4>
+              <ul>
+                <li>Maintain good hygiene, especially hand hygiene</li>
+                <li>Stay hydrated to prevent dehydration</li>
+                <li>Avoid contaminated food and water</li>
+                <li>Practice safe food handling and preparation</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Dietary Recommendations:</h4>
+              <ul>
+                <li>Drink plenty of fluids, such as water, clear broth, and electrolyte solutions</li>
+                <li>Eat small, frequent meals</li>
+                <li>Consume bland, easy-to-digest foods, like bananas, rice, applesauce, and toast (BRAT diet)</li>
+                <li>Avoid fatty, greasy, or spicy foods</li>
+                <li>Avoid caffeine and alcohol</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      <br>
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+        Back
+      </button>
+    </div>
+
+
+
+    <div id="sectionDetailedview4">
+     
+  <table>
+    <tr>
+      <h3><u>Obesity Information</u></h3>
+    </tr>
+    <tr>
+      <td>
+        <h4>Obesity Symptoms:</h4>
+        <ul>
+          <li>Excessive weight gain or obesity</li>
+          <li>Increased body fat accumulation</li>
+          <li>Breathlessness</li>
+          <li>Joint pain or discomfort</li>
+          <li>Low energy levels</li>
+          <li>Snoring or sleep apnea</li>
+          <li>High blood pressure</li>
+          <li>Increased risk of chronic diseases, such as heart disease and type 2 diabetes</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Adopt a balanced and healthy lifestyle</li>
+          <li>Incorporate regular physical activity or exercise</li>
+          <li>Limit sedentary behavior</li>
+          <li>Seek medical advice and guidance</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Dietary Recommendations:</h4>
+        <ul>
+          <li>Consume a well-balanced and nutrient-rich diet</li>
+          <li>Eat plenty of fruits and vegetables</li>
+          <li>Incorporate whole grains</li>
+          <li>Choose lean protein sources</li>
+          <li>Limit added sugars and sugary beverages</li>
+          <li>Control portion sizes</li>
+          <li>Stay hydrated</li>
+          <li>Seek guidance from a registered dietitian for personalized dietary advice</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+        Back
+      </button>
+    </div>
+
+
+    
+   <div id="sectionDetailedview5">
+        <table>
+    <tr>
+      <h3><u>Diabetes Information</u></h3>
+    </tr>
+    <tr>
+      <td>
+        <h4>Diabetes Symptoms:</h4>
+        <ul>
+          <li>Increased thirst</li>
+          <li>Frequent urination</li>
+          <li>Unexplained weight loss</li>
+          <li>Increased hunger</li>
+          <li>Fatigue or tiredness</li>
+          <li>Blurred vision</li>
+          <li>Slow-healing sores or frequent infections</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Monitor blood sugar levels regularly</li>
+          <li>Follow the prescribed treatment plan and medication regimen</li>
+          <li>Adopt a healthy and balanced lifestyle</li>
+          <li>Maintain a healthy body weight</li>
+          <li>Exercise regularly</li>
+          <li>Manage stress levels</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Dietary Recommendations:</h4>
+        <ul>
+          <li>Eat a balanced diet with controlled portion sizes</li>
+          <li>Include a variety of fruits, vegetables, whole grains, and lean proteins</li>
+          <li>Choose low-glycemic index foods</li>
+          <li>Limit intake of sugary and processed foods</li>
+          <li>Avoid sugary beverages and opt for water or unsweetened drinks</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+        Back
+      </button>
+    </div>
+
+    
+    <div id="sectionDetailedview6">
+      
+  <table>
+    <tr>
+      <h3><u>Infectious Diseases Information</u></h3>
+    </tr>
+    <tr>
+      <td>
+        <h4>Symptoms:</h4>
+        <ul>
+          <li>Fever</li>
+          <li>Cough</li>
+          <li>Sore throat</li>
+          <li>Fatigue</li>
+          <li>Body aches</li>
+          <li>Headache</li>
+          <li>Runny or stuffy nose</li>
+          <li>Diarrhea</li>
+          <li>Vomiting</li>
+        </ul>
+      <ss/td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Practice good hand hygiene (regular handwashing with soap and water or use of hand sanitizer)</li>
+          <li>Cover mouth and nose with a tissue or elbow when coughing or sneezing</li>
+          <li>Avoid close contact with sick individuals</li>
+          <li>Stay home when feeling unwell</li>
+          <li>Practice safe food handling and preparation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>General Preventive Measures:</h4>
+        <ul>
+          <li>Maintain a clean and hygienic environment</li>
+          <li>Stay updated on immunizations</li>
+          <li>Practice safe sexual behaviors</li>
+          <li>Use insect repellents and protective clothing to prevent vector-borne diseases</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+        Back
+      </button>
+    </div>
+
+    
+    <div id="sectionDetailedview7">
+  <table>
+    <tr>
+      <h3><u>Typhoid Information</u></h3>
+    </tr>
+    <tr>
+      <td>
+        <h4>Typhoid Symptoms:</h4>
+        <ul>
+          <li>Persistent high fever</li>
+          <li>Weakness and fatigue</li>
+          <li>Headache</li>
+          <li>Stomach pain and cramps</li>
+          <li>Poor appetite</li>
+          <li>Constipation or diarrhea</li>
+          <li>Rash of rose-colored spots</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Practice good hygiene (regular handwashing with soap and water)</li>
+          <li>Drink clean and safe water</li>
+          <li>Eat properly cooked food</li>
+          <li>Ensure food is stored and handled properly</li>
+          <li>Avoid street food and raw or undercooked food</li>
+          <li>Follow vaccination recommendations</li>
+          <li>Avoid close contact with infected individuals</li>
+          
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Dietary Recommendations:</h4>
+        <ul>
+          <li>Drink plenty of fluids to stay hydrated</li>
+          <li>Consume a well-balanced diet</li>
+          <li>Eat small, frequent meals</li>
+          <li>Include easily digestible foods, such as soups, broths, and boiled vegetables</li>
+          <li>Avoid spicy and oily foods</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+      Back
+      </button>
+    </div>
+
+    
+    <div id="sectionDetailedview8">
+  <table>
+    <tr>
+      <h3><u>Malaria Information</u></h3>
+    </tr>
+    <tr>
+      <td>
+        <h3>Malaria Symptoms:</h3>
+        <ul>
+          <li>Fever</li>
+          <li>Chills</li>
+          <li>Sweating</li>
+          <li>Headache</li>
+          <li>Body aches</li>
+          <li>Nausea and vomiting</li>
+          <li>Joint pain</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Use mosquito repellents and bed nets treated with insecticides</li>
+          <li>Wear protective clothing, such as long sleeves and pants, especially during dusk and dawn</li>
+          <li>Ensure proper screening of doors and windows to prevent mosquitoes from entering</li>
+          <li>Eliminate stagnant water sources and areas where mosquitoes breed</li>
+          <li>Take anti-malarial medications as prescribed</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Preventive Measures:</h4>
+        <ul>
+          <li>Stay in air-conditioned or well-screened accommodations</li>
+          <li>Avoid outdoor activities during peak mosquito biting times</li>
+          <li>Follow local health recommendations and travel advisories</li>
+          <li>Stay updated on malaria risk areas and take necessary precautions while traveling</li>
+          <li>Consult a healthcare professional or travel clinic for personalized advice and anti-malarial medication</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+        Back
+      </button>
+    </div>
+
+
+    
+    <div id="sectionDetailedview9">
+  <table>
+    <tr>
+      <h3><u>Tuberculosis (TB) Information</u></h3>
+    </tr>
+    <tr>
+      <td>
+        <h4>TB Symptoms:</h4>
+        <ul>
+          <li>Cough lasting for more than 2-3 weeks</li>
+          <li>Coughing up blood</li>
+          <li>Chest pain</li>
+          <li>Fever</li>
+          <li>Weight loss</li>
+          <li>Fatigue or weakness</li>
+          <li>Loss of appetite</li>
+          <li>Night sweats</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Follow infection control measures, such as covering the mouth and nose when coughing or sneezing</li>
+          <li>Ensure proper ventilation in living spaces</li>
+          <li>Avoid close contact with individuals with active TB</li>
+          <li>Complete the full course of treatment if diagnosed with TB</li>
+          <li>Seek medical care and get tested if experiencing symptoms or have been exposed to TB</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Treatment:</h4>
+        <ul>
+          <li>Medical treatment with a combination of antibiotics for the specified duration</li>
+          <li>Adherence to the prescribed treatment regimen</li>
+          <li>Regular follow-up visits with healthcare providers</li>
+          <li>Isolation measures in the case of active, contagious TB</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+        Back
+      </button>
+    </div>
+
+
+    
+    <div id="sectionDetailedview10">
+      
+  <table>
+    <tr>
+      <h3><u>PCOD Information</u></h3>
+    </tr>
+    <tr>
+      <td>
+        <h4>PCOD Symptoms:</h4>
+        <ul>
+          <li>Irregular or absent menstrual periods</li>
+          <li>Excessive hair growth on face, chest, or back (hirsutism)</li>
+          <li>Acne or oily skin</li>
+          <li>Weight gain or difficulty losing weight</li>
+          <li>Thinning hair or hair loss</li>
+          <li>Darkening of skin, particularly along neck creases, in the groin, and underneath breasts</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Precautions:</h4>
+        <ul>
+          <li>Maintain a healthy and balanced diet</li>
+          <li>Exercise regularly</li>
+          <li>Manage stress levels</li>
+          <li>Avoid smoking and excessive alcohol consumption</li>
+          <li>Follow the prescribed treatment plan and medication regimen</li>
+          <li>Regularly monitor blood sugar and cholesterol levels</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Management:</h4>
+        <ul>
+          <li>Weight management through a healthy diet and exercise</li>
+          <li>Hormonal therapy to regulate menstrual cycles and control symptoms</li>
+          <li>Fertility treatments, if needed</li>
+          <li>Managing associated conditions like insulin resistance and high cholesterol</li>
+          <li>Regular check-ups and follow-up with healthcare providers</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+
+      <button class="btn btn-primary" onclick="display('sectionDiseaseView')">
+       Back
+      </button>
+    </div>
+
+    
+   
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
